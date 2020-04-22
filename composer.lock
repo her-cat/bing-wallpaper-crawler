@@ -1,0 +1,57 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d362c790f92a5b1174eb9b52f7bdadc6",
+    "packages": [
+        {
+            "name": "easy-task/easy-task",
+            "version": "v2.2.7",
+            "source": {
+                "type": "git",
+                "url": "https://gitee.com/392223903/EasyTask",
+                "reference": "68f34667ad6fb3d5aaf0115b0a300766854cd7c3"
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=5.4"
+            },
+            "suggest": {
+                "ext-event": "For better performance. "
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "EasyTask\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "GaoJiuFeng",
+                    "email": "392223903@qq.com"
+                }
+            ],
+            "description": "easy-task",
+            "keywords": [
+                "easy-task"
+            ],
+            "time": "2020-04-21T14:30:52+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "ext-json": "*"
+    },
+    "platform-dev": []
+}

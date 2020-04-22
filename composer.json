@@ -1,0 +1,11 @@
+{
+    "require": {
+        "easy-task/easy-task": "^2.2",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+          "BingWallpaperCrawler\\": "src/"
+        }
+    }
+}
